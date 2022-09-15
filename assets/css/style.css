@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+html{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+header h1{
+    color:red;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+header p{
+    margin: auto;
+    text-align: center;
+    padding: 0 20%;
+}
