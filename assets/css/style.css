@@ -22,19 +22,25 @@ html{
 
 } */
 
+header{
+    width: 80%;
+    margin: auto;
+}
+
 header h1{
+    font-size: 3rem;
     color:red;
     margin: auto;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 }
 
 header p{
-    
+    color: black;
     text-align: center;
     margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
 }
 
 .container{
@@ -54,11 +60,26 @@ header p{
     color: white;
 }
 
-.columns{
+/* .columns{
     background-color: black;
-}
+} */
 
 .col{
     float: left;
     width: calc(100% / 3);
+    padding: 10px 20px;
+}
+
+.card{
+    background-color: black;
+    box-shadow: 20px -3px 30px lightgray;
+    /* padding: 2%; */
+}
+
+.card img{
+    float: left;
+}
+
+.card h3,p{
+    padding-left: 5px;
 }
