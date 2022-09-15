@@ -53,7 +53,7 @@ header p{
 }
 
 .col img{
-    height: 100px;
+    height: 120px;
 }
 
 .col h3,p{
@@ -78,8 +78,9 @@ header p{
 
 .card img{
     float: left;
+    padding-right: 15px;
 }
 
 .card h3,p{
-/*     padding-left: 15px; */
+    padding-top: 10px;
 }
