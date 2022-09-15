@@ -17,6 +17,11 @@ html{
     display: table;
 }
 
+/* body{
+    background-color: green;
+
+} */
+
 header h1{
     color:red;
     margin: auto;
@@ -25,7 +30,35 @@ header h1{
 }
 
 header p{
-    margin: auto;
+    
     text-align: center;
-    padding: 0 20%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.blue-text{
+    color: cornflowerblue;
+}
+
+.col img{
+    height: 100px;
+}
+
+.col h3,p{
+    color: white;
+}
+
+.columns{
+    background-color: black;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
 }
